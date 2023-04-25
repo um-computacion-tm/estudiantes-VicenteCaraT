@@ -12,6 +12,7 @@ class Alumno(Persona):#Alumno hereda de la clase persona
         self.Legajo = param_Legajo
         self.Tel = param_Tel
         self.email = para_email
+        self.direccion = param_direccion
 
 
 class Materia:
@@ -19,8 +20,6 @@ class Materia:
         self.nombremat = param_nombremat
         self.idmat = param_idmat
         self.horario = param_horario
-        self.direccion = param_direccion
-
         self.duracion = param_duracion
 
 
